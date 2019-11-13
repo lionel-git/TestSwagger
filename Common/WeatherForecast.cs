@@ -1,6 +1,6 @@
 using System;
 
-namespace TestSwagger
+namespace Common
 {
     public class WeatherForecast
     {

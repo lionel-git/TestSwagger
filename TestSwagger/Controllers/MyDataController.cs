@@ -3,11 +3,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Common;
 
 namespace TestSwagger.Controllers
 {
     [ApiController]
     [Route("/MyData/{id}/{name}")]
+    [Produces("application/json")]
     public class MyDataController : ControllerBase
     {
         [HttpGet]
